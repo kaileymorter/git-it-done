@@ -31,7 +31,6 @@ var displayRepos = function(repos, searchTerm) {
     for(var i = 0; i < repos.length; i++){
         //format repo name
         var repoName = repos[i].owner.login + "/" + repos[i].name;
-        console.log(repoName);
 
         //create a container for each repo
         var repoEl = document.createElement("div");
